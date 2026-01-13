@@ -54,3 +54,17 @@ The results are presented in a stylized DataFrame using a Red color gradient to 
 ![Jaws](img/Jaws.png)
 ![Green Lantern](img/GL.png)
 
+The recommendation engine provides high-quality results by identifying thematic links across a massive vocabulary of 18,477 unique terms. While similarity scores do not reach 100%, they represent significant overlap in a high-dimensional space.
++2
+
+* High Precision: The engine identifies "Jaws" sequels with scores near 46.52%, indicating an exceptionally strong correlation for content-based filtering.
+
+* Thematic Accuracy: Scores around 30% successfully capture niche sub-genres, such as linking "Narcos" to titles like "El Chapo" and "Miss Dynamite".
+
+* Statistical Context: Because the model compares 8,807 titles across thousands of words, a 100% score is mathematically reserved for identical content.
++2
+
+* Genre Alignment: "Green Lantern" effectively suggests sci-fi titles like "Spectral" (23.22%) by analyzing shared metadata.
+
+These percentages prove the model prioritizes unique keywords within the "soup" over generic vocabulary.
+
