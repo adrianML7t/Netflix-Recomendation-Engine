@@ -30,6 +30,8 @@ The engine analyzes over 8,800 titles to provide relevant suggestions by transfo
 ### 4. Visual Analysis (Heatmap)
 A heatmap was generated to visualize the most unique tokens across titles.
 
+
+
 ![TF-IDF Heatmap](img/TF-ID.png)
 
 ## 🚀 Recommendation Logic
