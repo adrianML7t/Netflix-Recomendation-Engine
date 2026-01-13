@@ -65,7 +65,7 @@ The recommendation engine provides high-quality results by identifying thematic 
 * **Thematic Accuracy:** Scores around 30% successfully capture niche sub-genres, such as linking "Narcos" to titles like "El Chapo" and "Miss Dynamite".
 
 * **Statistical Context:** Because the model compares 8,807 titles across thousands of words, a 100% score is mathematically reserved for identical content.
-+2
+
 
 * **Genre Alignment:** "Green Lantern" effectively suggests sci-fi titles like "Spectral" (23.22%) by analyzing shared metadata.
 
