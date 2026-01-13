@@ -50,5 +50,5 @@ The results are presented in a stylized DataFrame using a Red color gradient to 
 
 ![Narcos](img/Narcos.png)
 ![Jaws](img/Jaws.png)
-![Green Lantern](assets/GL.png)
+![Green Lantern](img/GL.png)
 
