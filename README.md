@@ -50,6 +50,7 @@ def search_engine():
 ### Final Results
 The results are presented in a stylized DataFrame using a Red color gradient to highlight match strength.
 
+
 <p align="center">
   <img src="img/Narcos.png" width="32%" />
   <img src="img/Jaws.png" width="32%" />
