@@ -58,7 +58,6 @@ The results are presented in a stylized DataFrame using a Red color gradient to 
 </p>
 
 The recommendation engine provides high-quality results by identifying thematic links across a massive vocabulary of 18,477 unique terms. While similarity scores do not reach 100%, they represent significant overlap in a high-dimensional space.
-+2
 
 * **High Precision:** The engine identifies "Jaws" sequels with scores near 46.52%, indicating an exceptionally strong correlation for content-based filtering.
 
