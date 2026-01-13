@@ -28,16 +28,12 @@ The engine analyzes over 8,800 titles to provide relevant suggestions by transfo
 
 
 ### 4. Visual Analysis (Heatmap)
-A heatmap was generated to visualize the most unique tokens across titles, such as "orleans", "mysteries", and "reality".
+A heatmap was generated to visualize the most unique tokens across titles.
 
----
+![TF-IDF Heatmap](img/TF-ID.png)
 
 ## 🚀 Recommendation Logic
 The core of the engine is the `search_engine()` function. It calculates the **Cosine Similarity** between titles to find the closest matches.
-
-
-### Implementation Details
-The results are presented in a stylized DataFrame using a Red color gradient to highlight match strength.
 
 ```python
 # Example of the final engine logic from the project
@@ -47,3 +43,12 @@ def search_engine():
     sim_scores = sorted(list(enumerate(cos_res[idx])), key=lambda x: x[1], reverse=True)
     top_matches = sim_scores[1:6]
     # ... formatting and returning results
+
+
+### Final Results
+The results are presented in a stylized DataFrame using a Red color gradient to highlight match strength.
+
+![Narcos](img/Narcos.png)
+![Jaws](img/Jaws.png)
+![Green Lantern](assets/GL.png)
+
