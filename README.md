@@ -43,7 +43,7 @@ def search_engine():
     sim_scores = sorted(list(enumerate(cos_res[idx])), key=lambda x: x[1], reverse=True)
     top_matches = sim_scores[1:6]
     # ... formatting and returning results
-
+```
 
 ### Final Results
 The results are presented in a stylized DataFrame using a Red color gradient to highlight match strength.
